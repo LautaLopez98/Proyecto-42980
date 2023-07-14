@@ -69,7 +69,7 @@ main{
     margin: 10px;
 }
 .tamanioFuente{
-    background-image: url(https://img.freepik.com/fotos-premium/textura-papel-libro-antiguo-hoja-amarilla-fondo-natural_160152-4536.jpg?w=2000);
+    background-image: url("../Assets/Imagenes/Fondo\ Hoja.avif");
     width: 100%;
     left: 10px;
     font-family: 'Franklin Gothic medium', 'Arial Narrow', Arial, sans-serif;
@@ -93,7 +93,7 @@ p{
 
 /*Contenido Pagina 2*/
 .tabla{
-    background-image: url(https://img.freepik.com/fotos-premium/textura-papel-libro-antiguo-hoja-amarilla-fondo-natural_160152-4536.jpg?w=2000);
+    background-image: url(../Assets/Imagenes/Fondo\ Hoja.avif);
     margin-top: 10px;
     margin-right: 50px;
     margin-bottom: 10px;
@@ -154,7 +154,7 @@ table{
     border: 5px solid;
 }
 .tamanioFuente1{
-    background-image: url(https://img.freepik.com/fotos-premium/textura-papel-libro-antiguo-hoja-amarilla-fondo-natural_160152-4536.jpg?w=2000);
+    background-image: url(../Assets/Imagenes/Fondo\ Hoja.avif);
     font-family: 'Franklin Gothic medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
     padding: 20px;
@@ -166,7 +166,7 @@ table{
 }
 .listaSecretos{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: url(https://img.freepik.com/fotos-premium/textura-papel-libro-antiguo-hoja-amarilla-fondo-natural_160152-4536.jpg?w=2000);
+    background-image: url(../Assets/Imagenes/Fondo\ Hoja.avif);
     border: 4px solid;
 }
 .secretos .listaSecretos p{
@@ -194,7 +194,7 @@ label{
     .titulo{
         border: 2px solid;
         font-size: 2rem;
-        background-image: url(https://img.freepik.com/fotos-premium/textura-papel-libro-antiguo-hoja-amarilla-fondo-natural_160152-4536.jpg?w=2000);
+        background-image: url(../Assets/Imagenes/Fondo\ Hoja.avif);
     }
     .titulo2{
         font-size: 1.3rem;
