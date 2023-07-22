@@ -1,0 +1,19 @@
+.subtitulo2{
+    color: $color-negro;
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-family: $fuente-principal;
+    padding: 10px;
+    margin: 20px;
+}
+.parrafoPrimero1{
+    margin: 60px;
+    margin-top: 20px;
+    border: 5px solid;
+    .tamanioFuente1{
+        background-image: url(../Assets/Imagenes/Fondo\ Hoja.avif);
+        font-family: $fuente-principal;
+        text-align: justify;
+        padding: 20px;
+    }
+}

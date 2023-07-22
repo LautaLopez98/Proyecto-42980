@@ -1,0 +1,40 @@
+main{
+    background-image: linear-gradient(to top, #6287d1 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+    padding: 10px;
+    .titulo{
+        color: $color-negro;
+        font-size: 2.5rem;
+        font-weight: bold;
+        font-family: $fuente-principal;
+    }
+    .titulo2{
+        color: $color-negro;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        font-family: $fuente-principal;
+    }
+    .subtitulo{
+        color: $color-negro;
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: $fuente-principal;
+        padding: 10px;
+        margin: 10px;
+    }
+    .tamanioFuente{
+        background-image: url("../Assets/Imagenes/Fondo\ Hoja.avif");
+        font-family: $fuente-principal;
+        text-align: justify;
+        border: 4px solid;
+    }
+    .image{
+        width: 100%;
+        height: 100%;  
+    }
+    .trailer{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}

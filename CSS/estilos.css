@@ -5,45 +5,44 @@
   box-sizing: border-box;
 }
 
+body {
+  background: black;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(48, 48, 48) 40%, rgb(29, 29, 29) 70%, rgb(0, 0, 0) 100%);
+}
+
 p {
   font-size: 1.1rem;
 }
 
-/*Body, Encabezado y Footer*/
-a:hover {
-  color: #6287d1 !important;
+header .navbar-toggler {
+  background-color: white;
 }
-
-body {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(48, 48, 48) 40%, rgb(29, 29, 29) 70%, rgb(0, 0, 0) 100%);
-}
-body .navbar-nav {
+header .navbar-nav {
   flex-grow: 1;
   justify-content: space-evenly;
 }
-body .navbar-nav .nav-item {
+header .navbar-nav .nav-item {
   border: 2px solid;
   color: white;
   margin: 5px;
 }
-body .navbar-nav .nav-item .nav-link.active {
+header .navbar-nav .nav-item .nav-link.active {
   color: white;
 }
-body .navbar-nav .nav-item .nav-link {
+header .navbar-nav .nav-item .nav-link {
   color: white;
 }
-body .footer {
+
+footer {
   text-align: center;
   padding: 10px;
   font-size: 1.2rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-body .footer p {
+footer p {
   color: white;
 }
 
-/*Contenido Pagina Inicio*/
 main {
   background-image: linear-gradient(to top, #6287d1 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
   padding: 10px;
@@ -71,7 +70,7 @@ main .subtitulo {
 }
 main .tamanioFuente {
   background-image: url("../Assets/Imagenes/Fondo Hoja.avif");
-  font-family: "Franklin Gothic medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: justify;
   border: 4px solid;
 }
@@ -85,62 +84,55 @@ main .trailer {
   margin-bottom: 20px;
 }
 
-/*Contenido Pagina 2*/
 .tabla {
   background-image: url(../Assets/Imagenes/Fondo\ Hoja.avif);
   margin-top: 10px;
   margin-right: 50px;
   margin-bottom: 10px;
   margin-left: 50px;
-  font-family: "Franklin Gothic Light", "Arial Narrow", Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   border: 4px solid;
 }
-
-caption {
-  margin: 10px;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: rgb(0, 0, 0);
-  text-align: center;
-}
-
-table {
+.tabla table {
   text-align: center;
   border: 2px solid;
   caption-side: top;
-  color: rgb(0, 0, 0);
+  color: black;
   border-collapse: separate;
 }
-
-.columnaUno {
+.tabla table caption {
+  margin: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+.tabla table .columnaUno {
   border: 2px solid;
   font-size: 1.1rem;
   font-weight: bold;
   font-family: "Franklin Gothic Light", "Arial Narrow", Arial, sans-serif;
-  color: rgb(0, 0, 0);
+  color: black;
 }
-
-.columnaDos {
+.tabla table .columnaDos {
   border: 2px solid;
   font-family: "Franklin Gothic Light", "Arial Narrow", Arial, sans-serif;
   font-size: 1rem;
   font-weight: bold;
   padding-top: 10px;
-  color: rgb(0, 0, 0);
+  color: black;
 }
-
-.columnaTres {
+.tabla table .columnaTres {
   border: 2px solid;
   font-family: "Franklin Gothic Light", "Arial Narrow", Arial, sans-serif;
   font-size: 1rem;
   font-weight: bold;
-  color: rgb(0, 0, 0);
+  color: black;
 }
 
-/*Contenido Pagina 3*/
 .subtitulo2 {
   color: black;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: bold;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding: 10px;
@@ -152,37 +144,36 @@ table {
   margin-top: 20px;
   border: 5px solid;
 }
-
-.tamanioFuente1 {
+.parrafoPrimero1 .tamanioFuente1 {
   background-image: url(../Assets/Imagenes/Fondo\ Hoja.avif);
-  font-family: "Franklin Gothic medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: justify;
   padding: 20px;
 }
 
-/*Contenido Pagina 4*/
 .secretos {
   text-align: justify;
+  margin: 40px;
 }
-
-.listaSecretos {
+.secretos .listaSecretos {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-image: url(../Assets/Imagenes/Fondo\ Hoja.avif);
   border: 4px solid;
 }
-
 .secretos .listaSecretos p {
   padding: 5px;
   border: 3px solid;
 }
 
-/*Contenido Pagina 5*/
 .formulario {
   text-align: center;
   align-items: center;
 }
-
-.casillero {
+.formulario label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.formulario .casillero {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   border: 5px solid;
@@ -191,29 +182,31 @@ table {
   width: 50%;
 }
 
-label {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
+a:hover {
+  color: #6287d1 !important;
 }
 
 @media (max-width: 576px) {
-  .titulo {
+  main .titulo {
     border: 2px solid;
     font-size: 2rem;
     background-image: url(../Assets/Imagenes/Fondo\ Hoja.avif);
   }
-  .titulo2 {
+  main .titulo2 {
     font-size: 1.3rem;
     border: 2px solid;
-    padding: 20px;
+    padding: 10px;
     margin: 20px;
     background-image: url(https://img.freepik.com/fotos-premium/textura-papel-libro-antiguo-hoja-amarilla-fondo-natural_160152-4536.jpg?w=2000);
   }
-  .parrafoPrimero1 {
+  main .parrafoPrimero1 {
     margin: 0;
   }
-  .tabla {
+  main .tabla {
     margin: 0;
+  }
+  main .secretos {
+    margin: 10px;
   }
 }
 

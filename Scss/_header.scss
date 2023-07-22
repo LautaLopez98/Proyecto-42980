@@ -1,0 +1,20 @@
+header{
+    .navbar-toggler{
+    background-color: $color-blanco;
+    }
+    .navbar-nav{
+        flex-grow: 1;
+        justify-content: space-evenly;
+        .nav-item{
+            border: 2px solid;
+            color: $color-blanco;
+            margin: 5px;
+            .nav-link.active{
+                color: $color-blanco;
+            }
+            .nav-link{
+                color: $color-blanco;
+            }
+        }        
+    }
+}
