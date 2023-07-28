@@ -1,5 +1,5 @@
 .tabla{
-    background-image: url(../Assets/Imagenes/Fondo\ Hoja.avif);
+    background: #FDBD85;
     margin-top: 10px;
     margin-right: 50px;
     margin-bottom: 10px;
@@ -15,32 +15,32 @@
         caption{
             margin: 10px;
             font-size: 1.5rem;
+            font-family: $fuente-principal;
             font-weight: bold;
             color: $color-negro;
-            text-align: center;
-            
+            text-align: center;  
+        }
+        .tituloTabla{
+            font-size: 1.1rem;
         }
         .columnaUno{
             border: 2px solid;
             font-size: 1.1rem;
             font-weight: bold;
-            font-family: $fuente-secundaria;
-            color: $color-negro;
+            font-family: $fuente-principal;
         }
         .columnaDos{
             border: 2px solid;
-            font-family: $fuente-secundaria;
-            font-size: 1rem;
+            font-family: $fuente-principal;
+            font-size: 1.1rem;
             font-weight: bold;
             padding-top: 10px;
-            color: $color-negro;
         }
         .columnaTres{
             border: 2px solid;
-            font-family: $fuente-secundaria;
-            font-size: 1rem;
+            font-family: $fuente-principal;
+            font-size: 1.1rem;
             font-weight: bold;
-            color: $color-negro;
         }
     }
 }

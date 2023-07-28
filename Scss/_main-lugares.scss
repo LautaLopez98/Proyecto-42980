@@ -11,8 +11,9 @@
     margin-top: 20px;
     border: 5px solid;
     .tamanioFuente1{
-        background-image: url(../Assets/Imagenes/Fondo\ Hoja.avif);
+        background: #FDBD85;
         font-family: $fuente-principal;
+        font-weight: bold;
         text-align: justify;
         padding: 20px;
     }

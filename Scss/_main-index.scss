@@ -4,8 +4,8 @@ main{
     .titulo{
         color: $color-negro;
         font-size: 2.5rem;
-        font-weight: bold;
-        font-family: $fuente-principal;
+        font-weight: 600;
+        font-family: $fuente-titulo;
     }
     .titulo2{
         color: $color-negro;
@@ -18,13 +18,15 @@ main{
         color: $color-negro;
         font-size: 1.5rem;
         font-weight: bold;
+        text-align: center;
         font-family: $fuente-principal;
         padding: 10px;
-        margin: 10px;
+        margin-top: 50px;
     }
     .tamanioFuente{
-        background-image: url("../Assets/Imagenes/Fondo\ Hoja.avif");
+        background-image: url("../Assets/Imagenes/Book1Txt4_.jpg");
         font-family: $fuente-principal;
+        font-weight: bold;
         text-align: justify;
         border: 4px solid;
     }

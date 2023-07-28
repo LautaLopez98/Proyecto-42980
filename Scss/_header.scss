@@ -8,6 +8,7 @@ header{
         .nav-item{
             border: 2px solid;
             color: $color-blanco;
+            font-family: $fuente-principal;
             margin: 5px;
             .nav-link.active{
                 color: $color-blanco;
