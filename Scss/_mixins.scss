@@ -1,0 +1,5 @@
+@mixin font-size-weight ($size){
+    font-family: $fuente-titulo;
+    font-size: $size;
+    font-weight: bold;
+}

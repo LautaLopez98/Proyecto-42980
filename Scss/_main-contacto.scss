@@ -3,7 +3,7 @@
     font-family: $fuente-principal;
     font-weight: bold;
     text-align: justify;
-    border: 4px solid;
+    border: map-get($bordes, borde-solid-cuatro);
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -18,7 +18,7 @@
     .casillero{
         text-align: center;
         font-family: $fuente-principal;
-        border: 5px solid;
+        border: map-get($bordes, borde-solid-cinco);
         padding: 5px;
         margin: 10px;
         width: 50%;

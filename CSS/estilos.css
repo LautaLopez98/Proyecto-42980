@@ -51,23 +51,18 @@ main {
 }
 main .titulo {
   color: black;
-  font-size: 2.5rem;
-  font-weight: 600;
   font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
-main .titulo2 {
+main .titulo2, main .subtitulo {
   color: black;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
-  text-align: center;
-  font-family: "Roboto", sans-serif;
 }
 main .subtitulo {
-  color: black;
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-align: center;
-  font-family: "Roboto", sans-serif;
   padding: 10px;
   margin-top: 50px;
 }
@@ -77,6 +72,9 @@ main .tamanioFuente {
   font-weight: bold;
   text-align: justify;
   border: 4px solid;
+}
+main .tamanioFuente p {
+  font-size: 1.1rem;
 }
 main .image {
   width: 100%;
@@ -115,26 +113,15 @@ main .trailer {
 .tabla table .tituloTabla {
   font-size: 1.1rem;
 }
-.tabla table .columnaUno {
+.tabla table .columnaUno, .tabla table .columnaTres, .tabla table .columnaDos {
   border: 2px solid;
+  font-family: "Roboto", sans-serif;
   font-size: 1.1rem;
   font-weight: bold;
-  font-family: "Roboto", sans-serif;
 }
 .tabla table .columnaDos {
-  border: 2px solid;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.1rem;
-  font-weight: bold;
   padding-top: 10px;
 }
-.tabla table .columnaTres {
-  border: 2px solid;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.1rem;
-  font-weight: bold;
-}
-
 .subtitulo2 {
   color: black;
   font-size: 1.7rem;
@@ -218,7 +205,7 @@ a:hover {
     font-size: 2rem;
     background-image: url(../Assets/Imagenes/Fondo\ Hoja.avif);
   }
-  main .titulo2 {
+  main .titulo2, main .subtitulo {
     font-size: 1.3rem;
     border: 2px solid;
     padding: 10px;
