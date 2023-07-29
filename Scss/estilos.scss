@@ -19,16 +19,12 @@ a:hover{
 @media (max-width: 767.98px){
     main{
         .titulo{
-            border: 2px solid;
             font-size: 2rem;
-            background-image: url(../Assets/Imagenes/Fondo\ Hoja.avif);
         }
         .titulo2{
             font-size: 1.3rem;
-            border: 2px solid;
             padding: 10px;
             margin: 20px;
-            background-image: url(https://img.freepik.com/fotos-premium/textura-papel-libro-antiguo-hoja-amarilla-fondo-natural_160152-4536.jpg?w=2000);
         }
     }
     main{
@@ -46,8 +42,9 @@ a:hover{
             margin: 10px;
         }
     }
-    
-}
-@media (max-width: 767.98px){
-    
+    main{
+        .textoContacto{
+            margin: 10px;
+        }
+    } 
 }

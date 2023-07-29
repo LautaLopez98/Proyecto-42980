@@ -174,8 +174,8 @@ main .trailer {
   font-weight: bold;
   text-align: justify;
   border: 4px solid;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 320px;
+  margin-right: 320px;
 }
 
 .formulario {
@@ -201,16 +201,12 @@ a:hover {
 
 @media (max-width: 767.98px) {
   main .titulo {
-    border: 2px solid;
     font-size: 2rem;
-    background-image: url(../Assets/Imagenes/Fondo\ Hoja.avif);
   }
   main .titulo2, main .subtitulo {
     font-size: 1.3rem;
-    border: 2px solid;
     padding: 10px;
     margin: 20px;
-    background-image: url(https://img.freepik.com/fotos-premium/textura-papel-libro-antiguo-hoja-amarilla-fondo-natural_160152-4536.jpg?w=2000);
   }
   main .parrafoPrimero1 {
     margin: 0;
@@ -219,6 +215,9 @@ a:hover {
     margin: 0;
   }
   main .secretos {
+    margin: 10px;
+  }
+  main .textoContacto {
     margin: 10px;
   }
 }
