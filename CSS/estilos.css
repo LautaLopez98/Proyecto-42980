@@ -15,6 +15,10 @@ p {
   font-size: 1.1rem;
 }
 
+span {
+  color: rgb(15, 87, 170);
+}
+
 header .navbar-toggler {
   background-color: white;
 }
@@ -27,12 +31,19 @@ header .navbar-nav .nav-item {
   color: white;
   font-family: "Roboto", sans-serif;
   margin: 5px;
+  padding: 5px;
 }
 header .navbar-nav .nav-item .nav-link.active {
   color: white;
 }
 header .navbar-nav .nav-item .nav-link {
   color: white;
+}
+header .navbar-nav .nav-item a:hover {
+  color: black !important;
+  transition: 0.4s ease-in;
+  background: white;
+  box-shadow: 0 0 5px white, 0 0 25px white;
 }
 
 footer {
@@ -48,6 +59,7 @@ footer p {
 main {
   background-image: linear-gradient(to top, #6287d1 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
   padding: 10px;
+  overflow: hidden;
 }
 main .titulo {
   color: black;
@@ -86,8 +98,21 @@ main .trailer {
   margin-bottom: 20px;
 }
 
+@media (max-width: 767.98px) {
+  main .titulo {
+    font-size: 2rem;
+  }
+  main .titulo2, main .subtitulo {
+    font-size: 1.3rem;
+    padding: 10px;
+    margin: 20px;
+  }
+  main .tamanioFuente {
+    background: #e2bd8d;
+  }
+}
 .tabla {
-  background: #FDBD85;
+  background: #e2bd8d;
   margin-top: 10px;
   margin-right: 50px;
   margin-bottom: 10px;
@@ -122,6 +147,14 @@ main .trailer {
 .tabla table .columnaDos {
   padding-top: 10px;
 }
+@media (max-width: 767.98px) {
+  main .titulo {
+    font-size: 2rem;
+  }
+  main .tabla {
+    margin: 0;
+  }
+}
 .subtitulo2 {
   color: black;
   font-size: 1.7rem;
@@ -137,13 +170,21 @@ main .trailer {
   border: 5px solid;
 }
 .parrafoPrimero1 .tamanioFuente1 {
-  background: #FDBD85;
+  background: #e2bd8d;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   text-align: justify;
   padding: 20px;
 }
 
+@media (max-width: 767.98px) {
+  main .titulo {
+    font-size: 2rem;
+  }
+  main .parrafoPrimero1 {
+    margin: 0;
+  }
+}
 .tituloSecretos {
   color: black;
   font-size: 1.7rem;
@@ -160,7 +201,7 @@ main .trailer {
 .secretos .listaSecretos {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  background: #FDBD85;
+  background: #e2bd8d;
   border: 4px solid;
 }
 .secretos .listaSecretos p {
@@ -168,6 +209,14 @@ main .trailer {
   border: 3px solid;
 }
 
+@media (max-width: 767.98px) {
+  main .titulo {
+    font-size: 2rem;
+  }
+  main .secretos {
+    margin: 10px;
+  }
+}
 .textoContacto {
   background: #FDBD85;
   font-family: "Roboto", sans-serif;
@@ -195,27 +244,9 @@ main .trailer {
   width: 50%;
 }
 
-a:hover {
-  color: #6287d1 !important;
-}
-
 @media (max-width: 767.98px) {
   main .titulo {
     font-size: 2rem;
-  }
-  main .titulo2, main .subtitulo {
-    font-size: 1.3rem;
-    padding: 10px;
-    margin: 20px;
-  }
-  main .parrafoPrimero1 {
-    margin: 0;
-  }
-  main .tabla {
-    margin: 0;
-  }
-  main .secretos {
-    margin: 10px;
   }
   main .textoContacto {
     margin: 10px;

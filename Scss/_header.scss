@@ -10,11 +10,18 @@ header{
             color: $color-blanco;
             font-family: $fuente-principal;
             margin: 5px;
+            padding: 5px;
             .nav-link.active{
                 color: $color-blanco;
             }
             .nav-link{
                 color: $color-blanco;
+            }
+            a:hover{
+                color: $color-negro !important;
+                transition: .4s ease-in;
+                background: $color-blanco;
+                box-shadow: 0 0 5px $color-blanco, 0 0 25px $color-blanco;
             }
         }        
     }

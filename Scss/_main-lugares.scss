@@ -11,10 +11,20 @@
     margin-top: 20px;
     border: map-get($bordes, borde-solid-cinco);
     .tamanioFuente1{
-        background: #FDBD85;
+        background: #e2bd8d;
         font-family: $fuente-principal;
         font-weight: bold;
         text-align: justify;
         padding: 20px;
+    }
+}
+@media (max-width: 767.98px){
+    main{
+        .titulo{
+            font-size: 2rem;
+        }
+        .parrafoPrimero1{
+            margin: 0;
+        }
     }
 }
