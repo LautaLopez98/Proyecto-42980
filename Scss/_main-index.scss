@@ -18,6 +18,8 @@ main{
     }
     .tamanioFuente{
         background-image: url("../Assets/Imagenes/Book1Txt4_.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
         font-family: $fuente-principal;
         font-weight: bold;
         text-align: justify;
@@ -31,7 +33,6 @@ main{
         height: 100%;  
     }
     .trailer{
-        width: 100%;
         text-align: center;
         margin-bottom: 20px;
     }
@@ -48,6 +49,9 @@ main{
         }
         .tamanioFuente{
             background: #e2bd8d;
+        }
+        iframe{
+            width: 70%;
         }
     }
 }

@@ -1,11 +1,11 @@
 .textoContacto{
-    background: #FDBD85;
+    background: #e2bd8d;
     font-family: $fuente-principal;
     font-weight: bold;
     text-align: justify;
     border: map-get($bordes, borde-solid-cuatro);
-    margin-left: 320px;
-    margin-right: 320px;
+    margin-right: 25%;
+    margin-left: 25%;
 }
 .formulario{
     text-align: center;
@@ -31,6 +31,9 @@
         }
         .textoContacto{
             margin: 10px;
+        }
+        .formulario .casillero{
+            width: 80%;
         }
     }
 }
