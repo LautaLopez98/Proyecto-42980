@@ -1,0 +1,11 @@
+.imagenPersonajes{
+    position: relative;
+    left: 25%;
+}
+@media (max-width: 767.98px){
+    main{
+        .imagenPersonajes{
+            left:15%;
+        }
+    }
+}
